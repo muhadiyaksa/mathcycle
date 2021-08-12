@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Louis George";
+    src: url(../font/Louis\ George\ Cafe\ Bold.ttf);
+}
+
+.container{
+    display: flex;
+    flex-direction: column-reverse;
+    overflow:hidden;
+    z-index:-1;
+    font-family: 'Roboto', 'arial' , sans-serif;
+}
+.container .halkiri{
+    text-align: center;
+    background-color: rgba(238, 238, 238, 0.2);
+    font-size: 14px;
+    box-shadow: 0px 2px 7px 1px rgba(71, 71, 71, 0.2);
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.container .halkiri img{
+    max-width: 250px;
+
+}
+
+.container .halkiri .sosial{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container  .halkiri .sosial img{
+    max-width: 25px;
+} 
+
+.container .halkanan{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    color:#181818;
+}
+.container .halkanan img{
+    max-height: 25px;
+    margin-bottom: 60px;
+    margin-top: 15px;
+}
+.container .halkanan p{
+    margin-bottom: 50px;
+
+}
+.container .halkanan table{
+    margin: 0px auto;
+}
+.container .halkanan button{
+    padding: 7px 30px;
+    margin-bottom: 30px;
+    color:#181818;
+}
+.container .halkanan input{
+    background-color: rgb(245, 245, 245);
+}
+.container .halkanan a{
+    color: #181818;
+    font-size: 14px;
+}
+
+@media (min-width: 992px) {
+    html{
+        position: relative;
+        min-height: 100%;
+    }
+    body{
+        height: 100%;
+    }
+    .container{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+    }
+    .container .halkiri{
+        position: absolute;
+        box-shadow: 0px 2px 7px 1px rgba(0,0,0, 0.0);
+        top: 20px;
+        bottom: 20px;
+        left: 50px;
+        width: 50%;
+        border-radius: 15px;
+        text-align: center;
+        color:#181818;
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+    .container .halkiri img{
+        max-width: 350px;
+    
+    }
+    .container .halkiri .sosial{
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0px;
+        text-align: center;
+    }
+    .container  .halkiri .sosial img{
+        max-width: 35px;
+    } 
+    .container .halkanan{
+        padding-top: 40px;
+        position: absolute;
+        right:50px;
+        width: 45%;
+        background-color: white;
+        box-shadow: 0px 2px 7px 1px rgba(0,0,0, 0.2);
+        top: 10%;
+        bottom: 15%;
+        border-radius: 15px;
+        text-align: center;
+        color:#181818;
+    }
+    .container .halkanan img{
+        max-height: 30px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .container .halkanan a{
+        position: absolute;
+        left: 0;
+        right: 0;
+        color: #181818;
+        font-size: 14px;
+        bottom: 20px;
+    }
+    .container .halkanan button{
+        margin-bottom: 0px;
+    }
+    
+}
